@@ -60,3 +60,15 @@ const objArr = [
         lunghezza: "9cm"
     }
 ]
+
+// funzione per cercare nell'array e calcolare il peso totale
+getWeight();
+function getWeight(){
+    let totalWeight = 0;
+    for(let element of objArr){
+        totalWeight += parseInt(element.peso);
+    }
+    console.log(totalWeight);
+}
+
+
