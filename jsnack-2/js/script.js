@@ -72,13 +72,10 @@ function getLength(){
         zuccLength > 15 ? (longZuccArr.push(element)) : (shortZuccArr.push(element));
     }
 }
-console.log(longZuccArr);
-console.log(shortZuccArr);
-
 
 getTotalWeight(longZuccArr);
 getTotalWeight(shortZuccArr);
-
+// funzione per prendere il peso totale delle zucchine nei due diversi array
 function getTotalWeight(param){
     let totalWeight = 0;
     for(let element of param){
