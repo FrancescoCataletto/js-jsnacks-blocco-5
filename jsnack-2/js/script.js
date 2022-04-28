@@ -76,15 +76,15 @@ console.log(longZuccArr);
 console.log(shortZuccArr);
 
 
-// getTotalLength(longZuccArr);
-// getTotalLength(shortZuccArr);
+getTotalWeight(longZuccArr);
+getTotalWeight(shortZuccArr);
 
-// function getTotalLength(param){
-//     let totalLength = 0;
-//     for(let element of param){
-//         totalLength += parseInt(element);
-//     }
-//     console.log(totalLength);
-// }
+function getTotalWeight(param){
+    let totalWeight = 0;
+    for(let element of param){
+        totalWeight += parseInt(element.peso);
+    }
+    console.log(totalWeight);
+}
 
 
