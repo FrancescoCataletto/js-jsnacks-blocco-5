@@ -10,53 +10,53 @@ Calcola quanto pesano tutte le zucchine.
 
 const objArr = [
     {
-        varietà: "",
-        peso: "",
-        lunghezza: ""
+        varietà: "Zucchino nero di Milano",
+        peso: "200 grammi",
+        lunghezza: "20cm"
     },
     {
-        varietà: "",
-        peso: "",
-        lunghezza: ""
+        varietà: "Zucchino romanesco",
+        peso: "300 grammi",
+        lunghezza: "23cm"
     },
     {
-        varietà: "",
-        peso: "",
-        lunghezza: ""
+        varietà: "Zucchino ortolano di Faenza",
+        peso: "250 grammi",
+        lunghezza: "14cm"
     },
     {
-        varietà: "",
-        peso: "",
-        lunghezza: ""
+        varietà: "Zucchina lunga fiorentina",
+        peso: "260 grammi",
+        lunghezza: "30cm"
     },
     {
-        varietà: "",
-        peso: "",
-        lunghezza: ""
+        varietà: "Zucchino siciliano",
+        peso: "100 grammi",
+        lunghezza: "15cm"
     },
     {
-        varietà: "",
-        peso: "",
-        lunghezza: ""
+        varietà: "Zucchina striata di Napoli",
+        peso: "270 grammi",
+        lunghezza: "17cm"
     },
     {
-        varietà: "",
-        peso: "",
-        lunghezza: ""
+        varietà: "Zucchina bianca triestina",
+        peso: "290 grammi",
+        lunghezza: "10cm"
     },
     {
-        varietà: "",
-        peso: "",
-        lunghezza: ""
+        varietà: "Zucchina rigata pugliese",
+        peso: "400 grammi",
+        lunghezza: "12cm"
     },
     {
-        varietà: "",
-        peso: "",
-        lunghezza: ""
+        varietà: "Zucchino tondo di Piacenza",
+        peso: "220 grammi",
+        lunghezza: "8cm"
     },
     {
-        varietà: "",
-        peso: "",
-        lunghezza: ""
+        varietà: "Zucchino tondo di Nizza",
+        peso: "170 grammi",
+        lunghezza: "9cm"
     }
 ]
