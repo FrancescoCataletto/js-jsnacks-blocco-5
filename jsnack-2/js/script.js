@@ -60,10 +60,31 @@ const objArr = [
     }
 ]
 
+// array zucchine più lunghe di 15cm
+const longZuccArr = [];
+// array zucchine meno lunghe di 15cm
+const shortZuccArr = [];
 // funzione per prendere la lunghezza delle singole zucchine
 getLength();
 function getLength(){
     for(let element of objArr){
-        console.log(parseInt(element.lunghezza));
+        zuccLength = parseInt(element.lunghezza);
+        zuccLength > 15 ? (longZuccArr.push(element)) : (shortZuccArr.push(element));
     }
 }
+console.log(longZuccArr);
+console.log(shortZuccArr);
+
+
+// getTotalLength(longZuccArr);
+// getTotalLength(shortZuccArr);
+
+// function getTotalLength(param){
+//     let totalLength = 0;
+//     for(let element of param){
+//         totalLength += parseInt(element);
+//     }
+//     console.log(totalLength);
+// }
+
+
