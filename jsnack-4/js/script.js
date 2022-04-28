@@ -32,12 +32,20 @@ const objArr = [
 
 
 // funzione che pusha
+let lightestBike;
+
 getWeight();
+
 function getWeight(){
-    let lightestBike;
     for(let element of objArr){
         element = objArr.reduce((min, obj) => (min.peso < obj.peso) ? min : obj);
         lightestBike = element;
     }
     console.log(lightestBike);
+}
+
+printInPage();
+
+function printInPage(){
+    document.getElementById("bike-weight").innerHTML = `<p>La bici più leggera del catalogo è ${lightestBike.nome}: pesa ${lightestBike.peso}</p>`
 }
