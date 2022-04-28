@@ -59,3 +59,11 @@ const objArr = [
         lunghezza: "9cm"
     }
 ]
+
+// funzione per prendere la lunghezza delle singole zucchine
+getLength();
+function getLength(){
+    for(let element of objArr){
+        console.log(parseInt(element.lunghezza));
+    }
+}
