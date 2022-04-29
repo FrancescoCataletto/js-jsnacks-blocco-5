@@ -37,10 +37,14 @@ let lightestBike;
 getWeight();
 
 function getWeight(){
-    for(let element of objArr){
+    objArr.forEach((element) => {
         element = objArr.reduce((min, obj) => (min.peso < obj.peso) ? min : obj);
         lightestBike = element;
-    }
+    }) 
+    // for(let element of objArr){
+    //     element = objArr.reduce((min, obj) => (min.peso < obj.peso) ? min : obj);
+    //     lightestBike = element;
+    // }
     console.log(lightestBike);
 }
 
